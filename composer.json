@@ -1,0 +1,22 @@
+{
+    "name": "tugmaks/yii2-adminlte-assets",
+    "description": "Sets of assets for adminLTE",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","adminLTE"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Tyugaev",
+            "email": "tugmaks@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "almasaeed2010/adminlte": "~2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tugmaks\\AdminLTE\\Assets\\": "src"
+        }
+    }
+}
