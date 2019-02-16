@@ -11,9 +11,17 @@
         }
     ],
     "require": {
+        "php": ">=7.0",
         "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
         "almasaeed2010/adminlte": "~2.4"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Tugmaks\\AdminLTE\\Assets\\": "src"
